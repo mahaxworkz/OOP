@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.merchantsignup {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../Images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3%;
+
+}
+
+.merchantsign form {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+
+.merchantsign>h1 {
+    text-align: center;
+}
+
+.merchantsign form>label {
+    font-family: cursive;
+}
+
+.merchantsign form>input {
+    font-family: cursive;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.merchantsign form>input:focus {
+    outline: none;
+}
+
+.merchantsign {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.merchantsign .signup{
+    color: blue;
+    text-align: center;
+    border: 1px soli;
+}
+.signupbtn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.signupbtn>button {
+    padding: 3px 50px;
+    border-radius: 10px;
+    font-family: cursive;
+    border: 2px solid blueviolet;
+    background-color: rgb(228, 230, 235);
+    margin-top: 10px;
+}
+
+.signupbtn>button:hover {
+    transform: scale(1.1);
+    transition: 3s;
+    box-shadow: 0px 0px 30px rgb(26, 23, 29);
+}
+
+.merchantlogin {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login form {
+    margin: 0px;
+}
+
+.login>h1 {
+    text-align: center;
+}
+
+.login form>label {
+    font-family: cursive;
+}
+
+.login form>input {
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    font-family: cursive;
+}
+
+.login form>input:focus {
+    outline: none;
+}
+
+.login {
+    height: 70%;
+    width: 30%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.headermenu h1 {
+    justify-content: left;
+    font-size: 40px;
+    color: white;
+}
+
+.viewproducts a {
+    text-decoration: none;
+    color: white;
+}
+
+.discription {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../Images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    padding: 20%;
+}
+
+.discription form>input {
+    font-family: cursive;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+/* .home{
+    background:linear-gradient(rgba(0,0,0,0.5),transparent), url("../Images/home.jpg");
+    height: 90vh;
+    background-size: cover ;
+    background-position: center;
+    color: white;
+    padding: 3%;
+    
+} */

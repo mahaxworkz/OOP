@@ -1,0 +1,59 @@
+
+
+.headermenu{
+    justify-content: right;
+    color: blue;
+}
+.logo h1{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1>span{
+    color: orangered;
+}
+
+.viewproducts a{
+    text-decoration: none;
+    color: white;
+}
+
+.discription{
+    
+    background:linear-gradient(rgba(0,0,0,0.5),transparent), url("../Images/home.jpg");
+    background-size: cover ;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    padding: 20%;
+}
+
+.discription form>input{
+    font-family: cursive;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.product{
+    
+    height: 70px;
+    width: 40px;
+    padding: 20px;
+}
+
+
+.home{
+    background:linear-gradient(rgba(0,0,0,0.5),transparent), url("../Images/home.jpg");
+    height: 90vh;
+    background-size: cover ;
+    background-position: center;
+    color: white;
+    padding: 3%;
+    
+}

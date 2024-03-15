@@ -1,0 +1,45 @@
+section{
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(black); */
+    background-color: black;
+    padding: 10%;
+    padding-left: 40%;
+}
+section>article{
+    
+    height: 500px;
+    width: 300px;
+    border: 1px solid white;
+    padding: 50px; 
+    border-radius: 10px;
+    background: linear-gradient(black,green);
+}
+
+section>article>.id{
+    
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(2car.jpg )
+    
+  
+}
+
+section>article>.id:hover{
+        box-shadow: 1px 1px 5px lightblue;
+
+}
+section>article>.info{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    color: aliceblue;
+}
+
+section>article>.info>h1{
+    font-size: 60px;
+
+}
